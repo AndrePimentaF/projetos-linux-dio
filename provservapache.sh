@@ -6,6 +6,9 @@
 # 2025-04-11 - Primeiro modelo
 # !Atenção! -Precisa estar logado como root para executar este #programa
 # !CUIDADO! -Alterar apenas o nome do gerenciador de pacotes caso não utilize distribuições baseadas em Debian(apt)
+#Para Distribuições RedHat:
+# dnf check-update/ dnf upgrade
+# dnf install #nome
 #=======================#
 
 echo"Limpa cache, atualiza servidor e instala: apache,unzip e wget "
