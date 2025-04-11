@@ -9,7 +9,7 @@
 #=======================#
 
 echo"Limpa cache, atualiza servidor e instala: apache,unzip e wget "
-apt clean
+apt-get clean
 apt-get update && upgrade -y
 apt-get install apache2 unzip -y
 apt-get install wget -y
